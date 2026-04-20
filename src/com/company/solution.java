@@ -125,3 +125,6 @@ class hotel{
         return total;
     }
 }
+//git add src/com/company/footwearProgram.java
+//git commit -m "Day 03 - footwearProgram.java"
+//git push
