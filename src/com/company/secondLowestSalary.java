@@ -51,13 +51,7 @@ public class secondLowestSalary {
         }
 
         // Find the second lowest salary value
-        double secondLowest = -1;
-        for (int i = 0; i < e.length; i++) {
-            if (e[i].getSalary() > e[0].getSalary()) {
-                secondLowest = e[i].getSalary();
-                break;
-            }
-        }
+
 
         if (secondLowest == -1) return null; // ✅ Fix: all salaries are equal, no second lowest
 
